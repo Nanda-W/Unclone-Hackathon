@@ -15,7 +15,6 @@ DEEPFAKE_ENDPOINT = f"{DETECTIF_BASE_URL}/deepfake/detect"
 MAX_FILE_SIZE_BYTES = 100 * 1024 * 1024  # 100 MB limit per API specification
 
 
-
 # Pydantic Schemas for Ollama Structured Output
 class ScamFlag(BaseModel):
     category: str = Field(

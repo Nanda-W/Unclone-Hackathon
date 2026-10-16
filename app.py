@@ -12,7 +12,6 @@ st.set_page_config(
 )
 
 
-
 def get_installed_ollama_models() -> List[str]:
     """Fetches locally available Ollama models, falling back to defaults if unavailable."""
     try:
